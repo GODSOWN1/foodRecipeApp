@@ -1,0 +1,55 @@
+.app{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 24px;
+    border-radius: 4px;
+}
+
+.appInput{
+    min-width: 200px;
+    max-width: 100vw;
+    font-size: 15px;
+    
+}
+
+.appSubmit{
+    
+    background-color: aqua;
+    text-decoration: black;
+    color: white;
+    cursor: pointer;
+}
+
+.appSubmit:hover{
+    
+    background-color: aqua;
+    text-decoration: black;
+    color: yellow;
+    cursor: pointer;
+
+}
+
+.appRecipes{
+display: grid;
+grid-template-columns: 230px 230px;
+align-items: baseline;
+}
+
+.recipeTile_image{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.recipeTile_name{
+    max-width: 200px;
+    text-align: center;
+}
+
+.app_healthlabels{
+    
+}
